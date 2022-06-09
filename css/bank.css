@@ -1,0 +1,44 @@
+*{
+    border: 0;
+    margin: 0;
+}
+h1{
+    font-size: 110px;
+    text-align: center;
+    margin-top: 10px;
+    color: blueviolet;
+}
+span{
+    color: brown;
+}
+section{
+    background: goldenrod;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
+input{
+    width: 100px;
+    height: 40px;
+    padding-left: 40px;
+}
+button{
+    width: 70px;
+    background: brown;
+    padding: 10px auto;
+}
+.container{
+    background: rgba(41, 134, 41, 0.525);
+    display: flex;
+    justify-content: space-around;
+}
+.container >div{
+   width: 250px;
+   height: 150px;
+   background: green;
+   text-align: center;
+   margin: 20px;
+   padding-top: 50px; 
+   color: antiquewhite;
+   font-size: 30px;
+}

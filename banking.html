@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Page</title>
+    <link rel="stylesheet" href="css/bank.css">
+</head>
+<body>
+    <header>
+        <h1>let's spend <span>Some money</span> !!!</h1>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div>
+                    <h2>Deposit</h2>
+                    <h2 id="deposit-total">00</h2>
+                    <!-- <input id="deposit-total" type="number" $00> -->
+                </div>
+                <div>
+                    <h2>Withdraw</h2>
+                    <h3>00</h3>
+                </div>
+                <div>
+                    <h2>Balance</h2>
+                    <h3 id="balance-total">1400</h3>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit & withdraw -->
+        <section>
+            <div>
+                <input id="deposit-input" type="text" placeholder="deposit">
+                <button id="deposit-button">Deposit</button>
+            </div>
+            <br>
+            <div>
+                <input id="withdraw-input" type="text" placeholder="withdraw">
+                <button id="withdraw-button">Withdraw</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/bank.js"></script>
+</body>
+</html>
